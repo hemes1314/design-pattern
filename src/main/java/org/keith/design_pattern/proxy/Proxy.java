@@ -3,10 +3,10 @@ package org.keith.design_pattern.proxy;
 
 public class Proxy implements GiveGift {
 
-	private Pursuer pursuer;
+	private GG pursuer;
 	
 	public Proxy(MM mm){
-		this.pursuer = new Pursuer(mm);
+		this.pursuer = new GG(mm);
 	}
 	
 	public void giveDolls() {

@@ -1,11 +1,11 @@
 package org.keith.design_pattern.proxy;
 
 
-public class Pursuer implements GiveGift {
+public class GG implements GiveGift {
 
 	private MM mm;
 	
-	public Pursuer(MM mm) {
+	public GG(MM mm) {
 		this.mm = mm;
 	}
 	
